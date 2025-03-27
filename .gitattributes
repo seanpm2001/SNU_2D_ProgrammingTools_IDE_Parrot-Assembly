@@ -32,6 +32,13 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# Parrot Assembly source file
+*.pasm linguist-detectable=true
+*.pasm linguist-documentation=false
+*.pasm linguist-language=Parrot-Assembly
+*.PASM linguist-detectable=true
+*.PASM linguist-documentation=false
+*.PASM linguist-language=Parrot-Assembly
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -161,10 +168,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2025, Wednesday, March 26th at 07:42 pm PST)
+# Line count (including blank lines and compiler line): 181
+
 # End of script
